@@ -79,13 +79,8 @@ The main SHAP results (~800 MB) are hosted on Google Drive. Download and extract
 
 ```bash
 # Download
-gdown "https://drive.google.com/uc?id=1Hr5SikYiuKHwobmFQlatPKwaY02VswOe" -O results_tree.tar.gz
-
-# Extract
-tar -xzf results_tree.tar.gz
-
-# (Optional) remove the archive
-rm results_tree.tar.gz
+download the zip file from https://osf.io/qa9fk/overview?view_only=b70e777a26fc420b85a1a1d03bd1e52e to the current directory.
+unzip results_tree.zip to the current directory
 ```
 
 This creates a `results_tree/` directory containing all precomputed SHAP value files.
